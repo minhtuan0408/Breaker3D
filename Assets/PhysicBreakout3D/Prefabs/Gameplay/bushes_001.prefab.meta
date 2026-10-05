@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5d661fdb09b51774296a0fdf589b133d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Gameplay/bushes_001.prefab
+  uploadId: 828724

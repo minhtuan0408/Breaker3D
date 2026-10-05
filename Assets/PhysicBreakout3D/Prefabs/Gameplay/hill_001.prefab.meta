@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6ac50d547e9c79b45b617a3259f31215
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Gameplay/hill_001.prefab
+  uploadId: 828724

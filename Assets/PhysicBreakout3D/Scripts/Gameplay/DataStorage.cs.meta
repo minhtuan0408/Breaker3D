@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d41ad9f6d3510ec47b7b4f0fa4d8fd87
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Scripts/Gameplay/DataStorage.cs
+  uploadId: 828724

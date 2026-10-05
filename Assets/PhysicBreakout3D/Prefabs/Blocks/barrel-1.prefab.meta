@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd074eebebe6da64493366fe60c27030
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Blocks/barrel-1.prefab
+  uploadId: 828724

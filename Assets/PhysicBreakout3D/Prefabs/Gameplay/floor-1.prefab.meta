@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f32eee18e818e9042a5c50b61e8c7904
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Gameplay/floor-1.prefab
+  uploadId: 828724

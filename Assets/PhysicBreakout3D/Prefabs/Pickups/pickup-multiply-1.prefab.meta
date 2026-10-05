@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eda3628c6c298464e88bd0e25ba44eca
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Pickups/pickup-multiply-1.prefab
+  uploadId: 828724

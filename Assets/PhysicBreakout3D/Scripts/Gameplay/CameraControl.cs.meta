@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fac60b50a70cd184a91a9f79985a6063
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Scripts/Gameplay/CameraControl.cs
+  uploadId: 828724

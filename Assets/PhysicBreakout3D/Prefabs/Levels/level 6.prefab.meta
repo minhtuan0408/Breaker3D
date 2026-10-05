@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 569629352cce10e45b250ba9d61b043a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Levels/level 6.prefab
+  uploadId: 828724

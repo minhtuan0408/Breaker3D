@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a52bf4d1fef233a4d8cb579c77d6e1ab
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Gameplay/fance-1.prefab
+  uploadId: 828724

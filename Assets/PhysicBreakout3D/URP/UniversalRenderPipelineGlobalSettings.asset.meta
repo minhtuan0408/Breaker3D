@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: adf6e1dbedd619b4aab89ae61fb02172
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/URP/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 828724

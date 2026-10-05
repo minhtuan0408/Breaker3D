@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 35e33ce5c71079a4f9e6042e49ce7b2d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Scripts/UI/WinUI.cs
+  uploadId: 828724

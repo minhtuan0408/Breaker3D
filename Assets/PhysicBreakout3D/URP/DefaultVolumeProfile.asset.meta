@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f42d35fd1c0c9c441a60e613e3223bc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/URP/DefaultVolumeProfile.asset
+  uploadId: 828724

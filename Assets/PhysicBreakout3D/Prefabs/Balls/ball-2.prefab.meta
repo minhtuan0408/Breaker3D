@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf32f45456dc2e7458ecbadd2b879a9a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Balls/ball-2.prefab
+  uploadId: 828724

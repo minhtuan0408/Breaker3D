@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 76fd91c69ed07ca44813ee980526c531
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Art/Materials/mat-color 4.mat
+  uploadId: 828724

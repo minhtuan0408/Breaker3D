@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 01ca832d3a814574195d5281324f9087
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Gameplay/tree_007.prefab
+  uploadId: 828724

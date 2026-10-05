@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b19248d53f724874c9070ef06456eeb4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Particles/particle-block-break 1.prefab
+  uploadId: 828724

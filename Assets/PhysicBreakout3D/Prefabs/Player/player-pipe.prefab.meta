@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c530093c47739b444be3eb34472b82f2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 303330
+  packageName: Physic Break Out 3D - Game Template
+  packageVersion: 1.1
+  assetPath: Assets/PhysicBreakout3D/Prefabs/Player/player-pipe.prefab
+  uploadId: 828724

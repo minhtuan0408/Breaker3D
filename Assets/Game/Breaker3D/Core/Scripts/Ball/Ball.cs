@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VirtueSky.Audio;
 
 public class Ball : MonoBehaviour
 {
@@ -13,14 +14,22 @@ public class Ball : MonoBehaviour
 
     public bool m_IsStoped = false;
     public bool m_OnSpeed = false;
-
-    public event Action OnOut;
+    [SerializeField] protected PlaySfxEvent playSfxEvent;
+    [SerializeField] protected SoundData soundDummyData;
+    [SerializeField] protected SoundData soundPlayerData;
+    public event Action<Ball> OnOut;
     // Start is called before the first frame update
     public static Ball m_Main;
+    private int ballHitMask;
 
     private void Awake()
     {
         m_IsStoped = false;
+        ballHitMask = Physics.DefaultRaycastLayers;
+        int blockBreakLayer = LayerMask.NameToLayer("BlockBreak");
+        if (blockBreakLayer >= 0)
+            ballHitMask &= ~(1 << blockBreakLayer);
+
         //m_Main = this;
         Debug.Log("Tạo bóng");
     }
@@ -40,7 +49,13 @@ public class Ball : MonoBehaviour
         if (m_IsStoped)
             return;
         //m_MoveSpeed * Time.deltaTime
-        RaycastHit[] hits = Physics.SphereCastAll(transform.position, .5f, m_MoveDirection, 1f);
+        RaycastHit[] hits = Physics.SphereCastAll(
+            transform.position,
+            .5f,
+            m_MoveDirection,
+            1f,
+            ballHitMask
+        );
         HashSet<IDamageable> damagedTargets = new HashSet<IDamageable>();
         foreach (RaycastHit hit in hits)
         {
@@ -52,6 +67,7 @@ public class Ball : MonoBehaviour
             if (col.gameObject.tag == "Player")
             {
                 doReflect = true;
+                playSfxEvent.Raise(soundPlayerData);
             }
             else if (col.gameObject.tag == "Block")
             {
@@ -72,6 +88,7 @@ public class Ball : MonoBehaviour
                     rb.AddForceAtPosition(forceDir, col.gameObject.transform.position + new Vector3(0, 2, 0), ForceMode.VelocityChange);
                     rb.angularVelocity = new Vector3(0, UnityEngine.Random.Range(-20f, 20f), 0);
                 }
+                playSfxEvent.Raise(soundDummyData);
                 doReflect = true;
             }
             else if (col.gameObject.tag == "Wall")
@@ -108,10 +125,7 @@ public class Ball : MonoBehaviour
             m_MoveDirection.Normalize();
         }
 
-
-
         m_Base.forward = m_MoveDirection;
-
 
         m_MoveSpeed = 16;
         if (m_OnSpeed)
@@ -125,12 +139,10 @@ public class Ball : MonoBehaviour
         pos1.x = Mathf.Clamp(pos1.x, -8f, 8f);
         pos1.z = Mathf.Clamp(pos1.z, -24f, 21f);
         transform.position = pos1;
-
-
         if (transform.position.z < Player.m_Main.transform.position.z - 2)
         {
             Debug.Log("Biến mất");
-            OnOut?.Invoke();
+            OnOut?.Invoke(this);
             Destroy(gameObject);
         }
         

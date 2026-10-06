@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4682200846357033301}
   - component: {fileID: 5900688719109896244}
-  - component: {fileID: 7853028267068253449}  - component: {fileID: 701000000000000004}
-
+  - component: {fileID: 7853028267068253449}
   m_Layer: 0
   m_Name: Particle System (1)
   m_TagString: Untagged
@@ -14728,6 +14727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3762239116913524147}
+  - component: {fileID: 5589261385954484607}
   m_Layer: 0
   m_Name: block-orange-break
   m_TagString: Untagged
@@ -14753,19 +14753,18 @@ Transform:
   - {fileID: 1616021664027316482}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
---- !u!114 &701000000000000004
+--- !u!114 &5589261385954484607
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3096124678680190598}
+  m_GameObject: {fileID: 7421061267026166431}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ac6540f6f7e4b50926632a170e4c024, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   particleSystems:
   - {fileID: 5900688719109896244}
   - {fileID: 5070482232638700077}

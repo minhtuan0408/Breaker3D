@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7809200568423903822}
   - component: {fileID: 8965816956633131366}
   - component: {fileID: 4168919753483290766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: block 2
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -96,6 +96,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NormalBlock
   stringParticle: GreenBlock
+  playSfxEvent: {fileID: 11400000, guid: ba0639b0195e13648a3504e9da49a22f, type: 2}
+  soundData: {fileID: 11400000, guid: a4bccfb920e95f94498713a37206273f, type: 2}
 --- !u!1 &4105577508820804678
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ GameObject:
   - component: {fileID: 8609327965812582280}
   - component: {fileID: 6787421464608943592}
   - component: {fileID: 7120186265542229817}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

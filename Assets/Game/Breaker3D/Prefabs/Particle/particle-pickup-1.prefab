@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588778389754458204}
   - component: {fileID: 116752070592580516}
-  - component: {fileID: 5423422108614076360}  - component: {fileID: 701000000000000007}
-
+  - component: {fileID: 5423422108614076360}
   m_Layer: 0
   m_Name: Particle System (1)
   m_TagString: Untagged
@@ -4916,6 +4915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2679439818869722214}
+  - component: {fileID: 6504008573559014667}
   m_Layer: 0
   m_Name: particle-pickup-1
   m_TagString: Untagged
@@ -4940,6 +4940,21 @@ Transform:
   - {fileID: 8363037715290377296}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6504008573559014667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2262099329602173548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac6540f6f7e4b50926632a170e4c024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystems:
+  - {fileID: 116752070592580516}
+  - {fileID: 1420132096359906124}
 --- !u!1 &3302027089593793873
 GameObject:
   m_ObjectHideFlags: 0
@@ -9846,19 +9861,3 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
-
---- !u!114 &701000000000000007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414623290642586913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac6540f6f7e4b50926632a170e4c024, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  particleSystems:
-  - {fileID: 116752070592580516}
-  - {fileID: 1420132096359906124}

@@ -5187,3 +5187,6 @@ MonoBehaviour:
   m_RollBase: {fileID: 1792635105651760461}
   m_IsStoped: 0
   m_OnSpeed: 0
+  playSfxEvent: {fileID: 11400000, guid: ba0639b0195e13648a3504e9da49a22f, type: 2}
+  soundDummyData: {fileID: 11400000, guid: f3a68c6c88d998948a356572841d7a65, type: 2}
+  soundPlayerData: {fileID: 11400000, guid: 73adc03e86b951848875910b85a0bf11, type: 2}
